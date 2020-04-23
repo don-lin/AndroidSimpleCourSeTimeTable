@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Code" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Module Name" />
+
+    <TextView
+        android:id="@+id/lecture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lecture/Practical choice" />
+
+    <TextView
+        android:id="@+id/weekDay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Monday" />
+
+    <TextView
+        android:id="@+id/stime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time - start time format like 12:34" />
+
+    <TextView
+        android:id="@+id/etime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time - end time format like 13:57" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Location (room #)" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional info (comments)" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK" />
+
+</LinearLayout>
